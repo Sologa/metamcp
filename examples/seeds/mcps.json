@@ -1,0 +1,17 @@
+[
+  {
+    "name": "HackerNews",
+    "type": "STDIO",
+    "command": "uvx",
+    "args": ["mcp-hn"],
+    "env": {
+      "API_KEY": "${HN_API_KEY}"
+    },
+    "idleSessions": 1
+  },
+  {
+    "name": "LocalEchoHTTP",
+    "type": "HTTP",
+    "url": "http://127.0.0.1:5000/mcp"
+  }
+]
