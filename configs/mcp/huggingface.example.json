@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "huggingface": {
+      "command": "npx",
+      "args": ["-y", "huggingface-mcp-server", "--api-key", "${input:hfApiKey}", "-t", "stdio"],
+      "type": "stdio"
+    }
+  },
+  "inputs": [
+    { "type": "promptString", "id": "hfApiKey", "description": "HuggingFace API Key", "password": true }
+  ]
+}
