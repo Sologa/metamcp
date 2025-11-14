@@ -1,8 +1,0 @@
-{
-  "servers": {
-    "metamcp": {
-      "type": "http",
-      "url": "http://localhost:12008"
-    }
-  }
-}
